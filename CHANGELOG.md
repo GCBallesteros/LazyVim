@@ -1,5 +1,15 @@
 # Changelog
 
+## [10.7.2](https://github.com/LazyVim/LazyVim/compare/v10.7.1...v10.7.2) (2023-10-28)
+
+
+### Bug Fixes
+
+* **extras:** dont show extras that give errors (user's extras). Fixes [#1895](https://github.com/LazyVim/LazyVim/issues/1895) ([b32b4fd](https://github.com/LazyVim/LazyVim/commit/b32b4fd581018cf14bf30ae4cd8d94cd43552813))
+* **mini.indentscope:** remove duplicated filetype ([#1871](https://github.com/LazyVim/LazyVim/issues/1871)) ([09eafc6](https://github.com/LazyVim/LazyVim/commit/09eafc60eff2ba7d7b78c1717d07ce26b762a8a8))
+* **plugin:** LazyFile now properly deals with deleted buffers. Fixes [#1877](https://github.com/LazyVim/LazyVim/issues/1877) ([4558407](https://github.com/LazyVim/LazyVim/commit/4558407574d0cdbe55720ab349df201bd4d5f5de))
+* **sessions:** added folds to sessions ([e01ad51](https://github.com/LazyVim/LazyVim/commit/e01ad513aa4f50bdb385a7454c9e1ec3a0d5dc94))
+
 ## [10.7.1](https://github.com/LazyVim/LazyVim/compare/v10.7.0...v10.7.1) (2023-10-25)
 
 
