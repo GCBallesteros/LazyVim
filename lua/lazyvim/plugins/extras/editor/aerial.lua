@@ -120,4 +120,11 @@ return {
       })
     end,
   },
+
+  -- vim-illuminate integration
+  {
+    "RRethy/vim-illuminate",
+    -- Remove vim-illuminate highlighting of the symbol list
+    opts = { filetypes_denylist = { "aerial" } },
+  },
 }
